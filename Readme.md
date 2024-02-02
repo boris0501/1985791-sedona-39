@@ -2,6 +2,7 @@
 
 * Студент: [борис колышкин](https://up.htmlacademy.ru/htmlcss/39/user/1985791).
 * Наставник: [Оксана Вайнруб](https://htmlacademy.ru/profile/id166797).
+* Сайт проекта[Мой проект Седона](https://boris0501.github.io/1985791-sedona-39/)
 
 ---
 
