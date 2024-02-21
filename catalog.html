@@ -6,7 +6,7 @@
   <title>Гостиницы Седоны</title>
 </head>
 <body>
-  <header class="header-catalog">
+  <header class="header-catalog" data-test="header">
     <a class="sedona-header-logo" href="index.html"><img src="#" alt="Логотип городка Седона"></a>
     <nav class="navigation">
       <ul class="navigation-list">
@@ -42,7 +42,7 @@
     </nav>
 
   </header>
-  <main class="main-inner">
+  <main class="main-inner" data-test="main">
     <header class="catalog-nav">
     <h1 class="title-catalog">Гостиницы Седоны</h1>
     <ul class="breadcrumbs-list">
@@ -54,7 +54,7 @@
       </li>
     </ul>
     </header>
-    <section class="hotel-filter">
+    <section class="hotel-filter" data-test="filter">
       <h2 class="visually-hidden">Фильтры отелей</h2>
       <form class="filter-catalog" action="https://echo.htmlacademy.ru" method="get">
         <fieldset class="catalog-filter-groups">
@@ -110,7 +110,7 @@
         <button class="filter-button" type="reset">Сбросить</button>
       </form>
     </section>
-    <section class="hotel-catalog">
+    <section class="hotel-catalog" data-test="catalog">
       <h2 class="catalog-title">Найдено гостиниц: 38</h2>
       <select class="catalog-select">сначала дешёвые</select>
       <a class="catalog-view catalog-view-selected" href="#"><span class="visually-hidden">Плитками</span></a>
@@ -175,7 +175,7 @@
         <li class="pagination-item"><a class="pagination-link" href="#">6</a></li>
       </ul>
     </section>
-    <section class="subscription">
+    <section class="subscription" data-test="subscribe">
       <h2 class="subscription-title">Подпишитесь на рассылку</h2>
       <p class="subscription-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
       <form class="subscription-form" action="https://echo.htmlacademy.ru" method="post">
@@ -185,7 +185,7 @@
       </form>
     </section>
   </main>
-  <footer class="footer-catalog">
+  <footer class="footer-catalog" data-test="footer">
     <ul class="social-list">
       <li class="social-item">
         <a href="https://vk.com/htmlacademy"><span class="visually-hidden">ВКонтакте</span></a>
