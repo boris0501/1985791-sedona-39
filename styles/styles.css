@@ -188,14 +188,21 @@ font-family: inherit;
   line-height: 40px;
   font-weight: 400;
 }
-.filter-inner {
+.catalog-inner-section {
+  background-image: url("../images/rastr/Фильтр.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: #82B3D3;
+  color: #fff;
+}
+/*.filter-inner {
   background-image: url("../images/rastr/Фильтр.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 50px;
   margin-top: 0;
   color: #fff;
-}
+}*/
 
 .filter-catalog {
 
@@ -228,14 +235,15 @@ color: #FFFFFF;
 }
 .button-detailed {
   text-decoration: none;
-  background-color: #82b3d3;
+  background-color: #756157;
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
+  font-size: 14px;
 }
 .favourite-card {
   text-decoration: none;
-  background-color: #756157;
+  background-color: #82b3d3;
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
@@ -250,9 +258,6 @@ color: #FFFFFF;
 .catalog-card-title {
   text-decoration: none;
   color: #000;
-}
-.card-price {
-  text-align: right;
 }
 .pagination-link {
   background-color: #82b3d3;
